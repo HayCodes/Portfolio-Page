@@ -85,24 +85,25 @@
   
   .name span {
     font-family: var(--sans);
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: var(--aqua);
     display: block;
     font-weight: 300;
   }
   
   #intro h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   font-weight: bold;
   }
   
   /* contact section */
   
   #contact {
-    width: 400px;
+    max-width: 400px;
+    width: 300px;
     text-align: center;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
   
   #contact p:last-child {
@@ -216,6 +217,10 @@ footer {
     padding: 4rem 0;
 }
 
+footer h2 {
+  font-size: 100%;
+}
+
 footer ul {
     list-style-type: none;
     padding: 0;
@@ -224,7 +229,7 @@ footer ul {
     flex-flow: row wrap;
     justify-content: center;
     gap: 3rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 @media (min-width: 800px) {
@@ -263,6 +268,20 @@ footer ul {
   #projects .reverse ul {
     justify-content: flex-start;
   }
+
+  footer ul{
+    font-size: 3rem;
+  }
+
+  footer h2{
+    font-size: 2.5rem;
+  }
+
+  #contact{
+    width: 400px;
+  }
+
+
   
 }
 @media (min-width: 850px) {
